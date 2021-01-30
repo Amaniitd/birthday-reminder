@@ -36,3 +36,27 @@ img {
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
   box-shadow: var(--light-shadow);
 }
+
+h3 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.line {
+  width: 180px;
+  height: 4px;
+  background: green;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  color: white;
+  background: #ffda61;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-size: larger;
+  border-radius: 5px;
+  margin: auto;
+}

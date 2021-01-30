@@ -5,10 +5,13 @@ import './index.css'
 import List from './List'
 import { people } from './people';
 const BirthdayList = () => {
-
+    const [person, setperson] = React.useState(people);
     return (
         <section className="container">
-            <List people={people}></List>
+            <h3>{person.length} Birthday Today</h3>
+            <div className="line"></div>
+            <List people={person}></List>
+            <button className="btn" onClick={() => { setperson([]) }}>Clear All</button>
         </section>
     );
 }
